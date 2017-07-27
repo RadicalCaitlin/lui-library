@@ -1,0 +1,72 @@
+/*----- Colors -----*/
+body {
+  margin: 0; }
+
+.body {
+  display: flex;
+  background: #f5f5f5;
+  height: 100vh;
+  width: 100vw; }
+
+/*----- Colors -----*/
+.content {
+  flex-grow: 1; }
+
+.content-header {
+  padding: 1rem;
+  font-size: 18px;
+  background: #666666;
+  color: #f5f5f5; }
+
+.content-body {
+  max-width: 800px;
+  margin: auto; }
+
+* {
+  font-family: sans-serif;
+  box-sizing: border-box; }
+
+/*----- Colors -----*/
+/*-------------------------
+    Top Navigation
+-------------------------*/
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #ffffff;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between; }
+
+.nav-left,
+.nav-right {
+  display: flex; }
+
+.nav .nav-link {
+  display: block;
+  padding: 0.75rem 1rem;
+  transition: all 0.2s ease;
+  color: #333333;
+  text-decoration: none; }
+  .nav .nav-link:hover {
+    background: #f2f2f2; }
+
+.section {
+  padding: 1rem; }
+
+.section-header {
+  margin: 1rem 0;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
+.section-code {
+  background: gainsboro;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: left; }
+
+.section-code xmp {
+  text-align: left; }
+
+/*# sourceMappingURL=main.css.map */

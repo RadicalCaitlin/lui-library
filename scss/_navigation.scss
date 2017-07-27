@@ -1,0 +1,33 @@
+/*----- Colors -----*/
+$nav-bg: #ffffff;
+$nav-color: #333333;
+
+/*-------------------------
+    Top Navigation
+-------------------------*/
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: $nav-bg;
+  box-shadow: 0 0 3px 1px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+}
+
+.nav .nav-link {
+  display: block;
+  padding: 0.75rem 1rem;
+  transition: all 0.2s ease;
+  color: $nav-color;
+  text-decoration: none;
+
+  &:hover {
+    background: darken($nav-bg, 5%);
+  }
+}

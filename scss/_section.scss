@@ -1,0 +1,20 @@
+.section {
+  padding: 1rem;
+}
+
+.section-header {
+  margin: 1rem 0;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.section-code {
+  background: darken($bg, 10%);
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.section-code xmp {
+  text-align: left;
+}
